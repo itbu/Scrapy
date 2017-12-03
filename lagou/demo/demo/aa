@@ -1,0 +1,35 @@
+#首页
+http://www.ganji.com/index.htm
+#地区
+http://(anqing).ganji.com/
+#列表页
+http://(dl).ganji.com/zp(baoan)/
+
+#详情页
+http://(dl).ganji.com/zp(jiazhenganbao)/(2929411127)x.htm
+
+#职位
+//h1[@class="f24 fc4b h31"]
+#更新时间
+//p[@class="data-sty mb-5"]/span[1]/text()
+#浏览次数
+//p[@class="data-sty mb-5"]/span[2]/text()
+#投递
+//p[@class="data-sty mb-5"]/span[3]/text()
+#职位名称
+//ul[@class="clearfix pos-relat"]/li[1]/em/a
+#月薪
+//em[@class="salary"]
+#年龄
+//ul[@class="clearfix pos-relat"]//li[3]/em
+#工作经验
+//ul[@class="clearfix pos-relat"]//li[4]/em
+#工作地点
+//dl[@class="detail-contact"]//dd[3]
+#公司福利
+//div[@class="d-welf-items"]/ul/li
+#url
+http://(dl).ganji.com/zp(jiazhenganbao)/(2929411127)x.htm
+
+
+
